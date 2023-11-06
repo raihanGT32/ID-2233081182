@@ -9,7 +9,7 @@ int multiplyArray(int arr[], int size) {
 }
 
 int main() {
-    int size;
+    int size,result;
     printf("Enter the size of Array: ");
     scanf("%d", &size);
 
@@ -19,7 +19,7 @@ int main() {
         scanf("%d", &array[i]);
     }
     
-    int result = multiplyArray(array, size);
+    result = multiplyArray(array, size);
     
     printf("Result of multiplying array is: %d\n", result);
 
